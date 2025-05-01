@@ -6,18 +6,20 @@
 This project applies the **Ant Colony Optimization (ACO)** algorithm to solve a version of the **Travelin Salesman Problem (TSP)** over a selected set of Flemish cities. The goal of the TSP is to find the shortest route possible that visits each city exactly once and returns to the starting city.
 
 ## Structure of the Repository
+```
 ├── .ipynb_checkpoints/                 # Auto-generated Jupyter checkpoint files
 │   └── DBA group project ACO-checkpoint.ipynb
 │
 ├── code/                              # Main project code
-│   ├── .ipynb_checkpoints/            # Checkpoint of the code notebook
+│   ├── .ipynb_checkpoints/            
 │   ├── DBA group project ACO.ipynb    # Main notebook implementing the ACO algorithm
-│   └── best_params.json               # (Optional) File to store best-performing ACO parameters
+│   └── best_params.json               # File that stores the best performing ACO parameters
 │
-├── data/                              # Data used in the project
-│   └── worldcities.csv                # External dataset (not used in current notebook, but included)
+├── data/                              # Data used in project
+│   └── worldcities.csv                
 │
 └── README.md                          # Project documentation
+```
 
 ## Requirements for Use
 To run the notebook, make sure to have the following Python packages installed:
