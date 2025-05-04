@@ -39,7 +39,6 @@ Optional: The file `best_params.json` contains the best parameters we found whil
 ## Credits to original creator
 This project builds upon and adapts code from the following repository:
 
-[Original Repository Name – Author]  
-🔗 [Insert link here]
+🔗 [https://strikingloo.github.io/ant-colony-optimization-tsp](https://strikingloo.github.io/ant-colony-optimization-tsp)
 
-We modified and extended the code to apply ACO to a global TSP using real-world cities.
+We modified and extended the code to apply ACO to a global Traveling Salesman Problem using real-world cities.
