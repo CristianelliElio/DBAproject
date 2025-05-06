@@ -1,1 +1,1 @@
-{"q": 15.171119236582946, "alpha": 1.211582355747042, "beta": 2.3809783621411675, "patience": 18, "iterations": 43, "ants": 33, "use_inertia": true}
+{"q": 7.6505046314153695, "alpha": 1.2606572861077394, "beta": 1.042313441878121, "patience": 77, "iterations": 65, "ants": 54, "use_inertia": false}
