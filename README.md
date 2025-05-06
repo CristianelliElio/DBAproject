@@ -3,9 +3,9 @@
 
 **Contributors:** Zaya Lips, Elio Cristianelli, Annabel De Clercq
 
-This project applies the **Ant Colony Optimization (ACO)** algorithm to solve a version of the **Travelin Salesman Problem (TSP)** over a selected set of Flemish cities. The goal of the TSP is to find the shortest route possible that visits each city exactly once and returns to the starting city.
+This project applies the **Ant Colony Optimization (ACO)** algorithm to solve a version of the **Traveling Salesman Problem (TSP)** over 30 of the most populated cities all over the world. The goal of the TSP is to find the shortest route possible that visits each city exactly once and returns to the starting city. The distances between the cities take into account the curvature of the Earth.
 
-## Structure of the Repository
+## Structure of the repository
 ```
 ├── .ipynb_checkpoints/                 # Auto-generated Jupyter checkpoint files
 │   └── DBA group project ACO-checkpoint.ipynb
@@ -21,12 +21,24 @@ This project applies the **Ant Colony Optimization (ACO)** algorithm to solve a 
 └── README.md                          # Project documentation
 ```
 
-## Requirements for Use
+## Requirements for use
 To run the notebook, make sure to have the following Python packages installed:
 - numpy
 - matplotlib
 - networkx
-- random (built-in)
-- math (built-in)
-- itertools (built-in)
+- built-in packages random, math, itertools
 
+## How to run the project
+1. Copy this repository or download it as a ZIP.
+2. Open the `code/DBA group project ACO.ipynb` notebook in Jupyter notebook.
+3. Run all cells to simulate the ACO algorithm on the world cities dataset step by step.
+4. The notebook will print intermediate results and visualize the final shortest path found.
+
+Optional: The file `best_params.json` contains the best parameters we found while experimenting.
+
+## Credits to original creator
+This project builds upon and adapts code from the following repository:
+
+🔗 [https://strikingloo.github.io/ant-colony-optimization-tsp](https://strikingloo.github.io/ant-colony-optimization-tsp)
+
+We modified and extended the code to apply ACO to a global Traveling Salesman Problem using real-world cities.
