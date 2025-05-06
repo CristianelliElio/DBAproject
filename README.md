@@ -7,11 +7,8 @@ This project applies the **Ant Colony Optimization (ACO)** algorithm to solve a 
 
 ## Structure of the repository
 ```
-├── .ipynb_checkpoints/                 # Auto-generated Jupyter checkpoint files
-│   └── DBA group project ACO-checkpoint.ipynb
-│
 ├── code/                              # Main project code
-│   ├── .ipynb_checkpoints/            
+│   ├── .ipynb_checkpoints/            # Auto-generated Jupyter checkpoint files
 │   ├── DBA group project ACO.ipynb    # Main notebook implementing the ACO algorithm
 │   └── best_params.json               # File that stores the best performing ACO parameters
 │
